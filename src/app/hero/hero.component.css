@@ -1,0 +1,57 @@
+
+.listing {
+    background: var(--accent-color);
+    border-radius: 30px;
+    padding-bottom: 30px;
+  }
+  .hero-name {
+    color: var(--primary-color);
+    padding: 10px 20px 0 20px;
+  }
+  .hero-photo {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+  }
+  progress {
+    margin-top: 3px;
+    margin-left: 15px;
+    width: 75%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: yellow; 
+    border-radius: 5px;
+  }
+  
+  progress::-moz-progress-bar {
+    background-color: yellow;
+  }
+  .attributes{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  .attributes li {
+    display: flex;
+  }
+
+  
+  section.listing a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(87, 109, 163);
+  }
+  section.listing a::after {
+    content: "\203A";
+    margin-left: 5px;
+  }

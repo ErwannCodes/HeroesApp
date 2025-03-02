@@ -1,0 +1,46 @@
+
+
+.hero-photo {
+    height: 300px;
+    width: 50%;
+    object-fit:cover;
+    border-radius: 30px;
+    float: right;
+  }
+  
+  .hero-heading {
+    font-size: 48pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+
+
+  
+  .hero-features > .section-heading {
+    color: var(--secondary-color);
+    font-size: 24pt;
+    margin-bottom: 15px;
+  }
+  
+  .hero-features {
+    margin-bottom: 20px;
+  }
+  
+  .hero-features li {
+    font-size: 14pt;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+
+  
+ 
+  @media (max-width: 1024px) {
+    .hero-photo {
+      width: 100%;
+      height: 400px;
+    }
+  }
