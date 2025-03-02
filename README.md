@@ -1,15 +1,5 @@
-# Angular Homes App
-- Install Angular if you don't have it installed
-
-  `npm install -g @angular/cli`
-
-- Clone this branch to your local machine
-
-  `git clone -b homes-app-start git@github.com:angular/codelabs.git homes-app`
-
-- Once the code has been downloaded
-
-  `cd homes-app`
+# Heroes App by Erwann LALE NY
+  Hey, here is my version of the project, feel free to clone it and leave me your feedback :-)
 
 - Install the depencies
 
